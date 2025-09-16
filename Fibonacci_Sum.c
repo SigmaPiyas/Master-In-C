@@ -6,7 +6,7 @@ int main() {
     int c; 
     int sum = 0; 
    
-    printf("Enter the number terms: ");
+    printf("Enter the number of terms: ");
     scanf("%d", &n);
 
 
@@ -25,4 +25,5 @@ int main() {
     printf("\nSum of the Fibonacci series: %d\n", sum);
 
     return 0; 
+
 }
