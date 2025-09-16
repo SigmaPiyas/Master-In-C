@@ -8,12 +8,7 @@ int main()
     printf("Enter a non-negative integer: ");
     scanf("%d", &n);
 
-    if (n < 0)
-    {
-        printf("Factorial is not defined for negative numbers.\n");
-    }
-
-    else if (n == 0)
+    if (n == 0)
     {
         printf("Factorial of 0 is 1.\n");
     }
@@ -28,4 +23,5 @@ int main()
     }
 
     return 0;
+
 }
